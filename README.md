@@ -14,12 +14,14 @@
    - The denominator of the model is (1 + numerator), so the answer will always be less than 1.
 - For a sample of size n, the likelihood for a binary logistic regression is given by:
 
- $L(\beta; y, X) = \prod_{i=1}^{n} \pi_i^{y_i} (1 - \pi_i)^{1 - y_i}$
+   $L(\beta; y, X) = \prod_{i=1}^{n} \pi_i^{y_i} (1 - \pi_i)^{1 - y_i}$
 
- $=\prod_{i=1}^{n} \left( \frac{\exp(X_i \beta)}{1 + \exp(X_i \beta)} \right)^{y_i}
+   $=\prod_{i=1}^{n} \left( \frac{\exp(X_i \beta)}{1 + \exp(X_i \beta)} \right)^{y_i}
 \left( \frac{1}{1 + \exp(X_i \beta)} \right)^{1 - y_i}$
  - This yields the log-likelihood:
 
    $\ell(\beta) = \sum_{i=1}^{n} \left( y_i \log(\pi_i) + (1 - y_i)\log(1 - \pi_i) \right)$
+
+   $=\sum_{i=1}^{n} \left( y_i X_i \beta - \log(1 + \exp(X_i \beta)) \right)$
 
    
