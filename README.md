@@ -9,6 +9,6 @@
 - $\pi$ is the probability that an observation is in a specified category of the binary Y variable, generally called the "success probability."
 - Notice that the model describes the probability of an event happening as a function of X variables. For instance, it might provide estimates of the probability that an older person has heart disease.
 - With the logistic model, estimates of $\pi$ from equations like the one above will always be between 0 and 1. The reasons are:
-- - The numerator $e^{\beta_0 + \beta_1 x_{i1} + \cdots + \beta_k x_{ik}}$
+   - The numerator $e^{\beta_0 + \beta_1 x_{i1} + \cdots + \beta_k x_{ik}}$
  must be positive because it is a power of a positive value (e).
-- - The denominator of the model is (1 + numerator), so the answer will always be less than 1.
+   - The denominator of the model is (1 + numerator), so the answer will always be less than 1.
