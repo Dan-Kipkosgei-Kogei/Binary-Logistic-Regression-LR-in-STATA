@@ -12,3 +12,14 @@
    - The numerator $e^{\beta_0 + \beta_1 x_{i1} + \cdots + \beta_k x_{ik}}$
  must be positive because it is a power of a positive value (e).
    - The denominator of the model is (1 + numerator), so the answer will always be less than 1.
+- For a sample of size n, the likelihood for a binary logistic regression is given by:
+
+ $L(\beta; y, X) = \prod_{i=1}^{n} \pi_i^{y_i} (1 - \pi_i)^{1 - y_i}$
+
+ $=\prod_{i=1}^{n} \left( \frac{\exp(X_i \beta)}{1 + \exp(X_i \beta)} \right)^{y_i}
+\left( \frac{1}{1 + \exp(X_i \beta)} \right)^{1 - y_i}$
+ - This yields the log-likelihood:
+
+   $\ell(\beta) = \sum_{i=1}^{n} \left( y_i \log(\pi_i) + (1 - y_i)\log(1 - \pi_i) \right)$
+
+   
