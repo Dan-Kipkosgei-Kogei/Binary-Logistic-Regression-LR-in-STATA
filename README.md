@@ -24,5 +24,21 @@
 
    $=\sum_{i=1}^{n} \left( y_i X_i \beta - \log(1 + \exp(X_i \beta)) \right)$
 - Maximizing the likelihood (or log-likelihood) has no closed-form solution, so a technique like iteratively reweighted least squares is used to find an estimate of the regression coefficients, $\hat{\beta}$
+- The Logistic regression model can be shown in linear form as;
 
-   
+    $\log\left(\frac{1 - \pi_i}{\pi_i}\right) = \beta_0 + \beta_1 x_{i1} + \beta_2 x_{i2} + \cdots + \beta_k x_{ik}$
+
+   Where;
+
+    - $\pi_i$: Probability that subject  i has the outcome (e.g., success, yes, 1)
+     
+    - $\frac{\pi_i}{1 - \pi_i}$ : Odds for subject 
+  
+    - log($\cdot$): Logarithm (this is called the logit function)
+
+    - $\beta_0$: Intercept
+       
+    - $\beta_1$, $\beta_2$, $\ldots$: Coefficients
+       
+    - $x_{i1}$, $x_{i2}$, $\ldots$: Predictor variables for subject  i
+
