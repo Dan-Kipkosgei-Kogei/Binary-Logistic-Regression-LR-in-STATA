@@ -23,5 +23,6 @@
    $\ell(\beta) = \sum_{i=1}^{n} \left( y_i \log(\pi_i) + (1 - y_i)\log(1 - \pi_i) \right)$
 
    $=\sum_{i=1}^{n} \left( y_i X_i \beta - \log(1 + \exp(X_i \beta)) \right)$
+- Maximizing the likelihood (or log-likelihood) has no closed-form solution, so a technique like iteratively reweighted least squares is used to find an estimate of the regression coefficients, $\hat{\beta}$
 
    
