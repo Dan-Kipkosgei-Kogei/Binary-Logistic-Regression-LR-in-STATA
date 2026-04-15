@@ -1,2 +1,3 @@
 # Binary-Logistic-Regression-LR-in-STATA
-This repository contains description of logistic regression and practical Application in STATA
+- Logistic regression models a relationship between predictor variables and a categorical response variable. For example, we could use logistic regression to model the relationship between various measurements of a manufactured specimen (such as dimensions and chemical composition) to predict if a crack greater than 10 mils will occur (a binary variable: either yes or no).
+- Binary Logistic Regression is used when the response is binary (i.e., it has two possible outcomes). The cracking example given above would utilize binary logistic regression. Other examples of binary responses could include passing or failing a test, responding yes or no on a survey, and having high or low blood pressure.
