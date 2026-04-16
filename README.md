@@ -116,6 +116,14 @@ logit tenyearchd male education age bmi sysbp diabp currentsmoker diabetes
 ```
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/b32cb4bd-356e-4c6a-95cc-bffe7635d7c1" />
 
+## Discussions
+
+- The logistic regression model examining predictors of 10-year heart disease is statistically significant overall (LR χ²(8) = 365.26, p < 0.001), indicating that the included variables jointly improve the prediction of heart disease status. The model is based on 4,238 observations and has a pseudo R² of 0.101, suggesting modest explanatory power.
+- The results show that male sex is significantly associated with higher odds of heart disease (β = 0.572, 95% CI: 0.387 to 0.757, p < 0.001). Age is also a strong predictor, with each additional year increasing the log-odds of heart disease (β = 0.063, 95% CI: 0.051 to 0.075, p < 0.001).
+- Systolic blood pressure is positively and significantly associated with heart disease risk (β = 0.018, 95% CI: 0.012 to 0.025, p < 0.001), indicating higher risk with increasing blood pressure.
+- Current smoking status is also a significant risk factor (β = 0.383, 95% CI: 0.193 to 0.572, p < 0.001), as is diabetes, which shows a strong positive association with heart disease (β = 0.761, 95% CI: 0.334 to 1.189, p < 0.001).
+- In contrast, education (β = -0.012, p = 0.796), body mass index (β = 0.007, p = 0.533), and diastolic blood pressure (β = -0.002, p = 0.707) are not statistically significant predictors, as their confidence intervals include zero. Overall, the findings indicate that age, male sex, systolic blood pressure, smoking, and diabetes are the key determinants of 10-year heart disease risk in this model.
+
 
 
 
