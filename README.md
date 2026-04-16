@@ -45,7 +45,17 @@
 - The dataset used is publicly available on the Kaggle website and it is from an ongoing cardiovascular study on residents of the town of Framingham, Massachusetts.
 - The classification goal is to predict whether the patient has 10-year risk of future coronary heart disease (CHD).The dataset provides the patients’ information and it includes over 4,000 observations .
 
-### Importing Dataset to STATA
+##### Importing Dataset to STATA
 ```stata
 import delimited "C:\Users\Administrator\Desktop\Data Science\heart_disease.csv", clear
+```
+##### Checking Variable names
+```stata
+describe
+```
+<img width="742" height="509" alt="image" src="https://github.com/user-attachments/assets/26186f54-5123-444b-b23d-1864d11b4c61" />
+
+##### Summary of the data
+```stata
+
 ```
