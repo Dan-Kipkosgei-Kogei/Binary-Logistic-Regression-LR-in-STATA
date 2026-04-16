@@ -124,6 +124,12 @@ logit tenyearchd male education age bmi sysbp diabp currentsmoker diabetes
 - Current smoking status is also a significant risk factor (β = 0.383, 95% CI: 0.193 to 0.572, p < 0.001), as is diabetes, which shows a strong positive association with heart disease (β = 0.761, 95% CI: 0.334 to 1.189, p < 0.001).
 - In contrast, education (β = -0.012, p = 0.796), body mass index (β = 0.007, p = 0.533), and diastolic blood pressure (β = -0.002, p = 0.707) are not statistically significant predictors, as their confidence intervals include zero. Overall, the findings indicate that age, male sex, systolic blood pressure, smoking, and diabetes are the key determinants of 10-year heart disease risk in this model.
 
+## Conclusion
+- The logistic regression analysis demonstrates that 10-year heart disease is significantly influenced by a set of key demographic and clinical risk factors such as age, male sex, systolic blood pressure, current smoking status, and diabetes are all statistically significant predictors and are associated with increased odds of developing heart disease.
+- In contrast, education level, body mass index, and diastolic blood pressure do not show a statistically significant relationship with heart disease after adjusting for other variables in the model.
+- Overall, the findings highlight that cardiovascular risk in this population is primarily driven by age-related and metabolic factors as well as behavioural risk such as smoking, while some commonly considered factors such as BMI and education level appear less influential in this adjusted model.
+- Although the model has moderate explanatory power, it provides meaningful insight into the most important determinants of heart disease risk in the dataset.
+
 
 
 
