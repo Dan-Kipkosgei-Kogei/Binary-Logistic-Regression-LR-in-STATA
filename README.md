@@ -71,5 +71,6 @@ summarize
 destring education cigsperday bpmeds totchol bmi heartrate glucose, replace force
 ```
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/d862ad63-53a5-47a5-9dca-a4d520411c4a" />
+
 From the output above, the variables are all now numeric.
 
