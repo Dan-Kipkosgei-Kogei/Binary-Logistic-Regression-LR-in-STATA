@@ -83,3 +83,7 @@ foreach var in bmi glucose totchol heartrate education cigsperday bpmeds {
 
 - From the output above, it is clear that there are no missing values remaining after the imputation process. All variables now have the same number of observations, which is 4,238, indicating that every previously missing value has been replaced with an imputed value.
 - As a result, the dataset is now complete and suitable for further statistical analysis without loss of observations due to missing data.
+
+### Some Data Visualisation in STATA
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/98e4f2ba-99ca-40f7-bc25-0261d9a1724a" />
+
