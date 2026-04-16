@@ -1,4 +1,5 @@
-# Binary-Logistic-Regression-LR-in-STATA
+# Binary Logistic Regression(LR) in STATA
+### By Dan Kipkosgei Kogei
 ## Introduction
 - Logistic regression models a relationship between predictor variables and a categorical response variable. For example, we could use logistic regression to model the relationship between various measurements of a manufactured specimen (such as dimensions and chemical composition) to predict if a crack greater than 10 mils will occur (a binary variable: either yes or no).
 - Binary Logistic Regression is used when the response is binary (i.e., it has two possible outcomes). The cracking example given above would utilize binary logistic regression. Other examples of binary responses could include passing or failing a test, responding yes or no on a survey, and having high or low blood pressure.
@@ -60,3 +61,8 @@ describe
 summarize
 ```
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/938d3be2-40d6-4627-bc6d-6f6985e71da3" />
+
+- The output shows that variables like male, age, and others have 4,238 observations because they contain valid numeric data for all individuals in the dataset. However, variables such as education, cigsperday, bpmeds, totchol, bmi, heartrate, and glucose show 0 observations because Stata does not find any usable numeric values in them.
+- This does not mean the variables are absent; rather, it means that every entry for those variables is missing or invalid (for example recorded as . or stored in a way Stata cannot interpret numerically).
+- As a result, Stata cannot compute statistics like the mean, minimum, or maximum, and therefore reports zero observations. In short, those variables exist in the dataset but are effectively empty from Stata’s perspective because all their values are missing.
+- Ti deal with these variables, they can be converted into proper numeric values or impute their missing value or drop them  if they contain no usable data.
