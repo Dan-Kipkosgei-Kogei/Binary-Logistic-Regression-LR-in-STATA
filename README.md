@@ -44,3 +44,8 @@
 ## Practical Application of Binary Logistic Regression in STATA
 - The dataset used is publicly available on the Kaggle website and it is from an ongoing cardiovascular study on residents of the town of Framingham, Massachusetts.
 - The classification goal is to predict whether the patient has 10-year risk of future coronary heart disease (CHD).The dataset provides the patients’ information and it includes over 4,000 observations .
+
+### Importing Dataset to STATA
+```stata
+import delimited "C:\Users\Administrator\Desktop\Data Science\heart_disease.csv", clear
+```
