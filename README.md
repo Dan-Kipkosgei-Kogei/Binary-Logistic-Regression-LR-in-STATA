@@ -53,9 +53,10 @@ import delimited "C:\Users\Administrator\Desktop\Data Science\heart_disease.csv"
 ```stata
 describe
 ```
-<img width="742" height="509" alt="image" src="https://github.com/user-attachments/assets/26186f54-5123-444b-b23d-1864d11b4c61" />
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/26186f54-5123-444b-b23d-1864d11b4c61" />
 
 ##### Summary of the data
 ```stata
-
+summarize
 ```
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/938d3be2-40d6-4627-bc6d-6f6985e71da3" />
