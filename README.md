@@ -72,5 +72,14 @@ destring education cigsperday bpmeds totchol bmi heartrate glucose, replace forc
 ```
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/d862ad63-53a5-47a5-9dca-a4d520411c4a" />
 
-From the output above, the variables are all now numeric. 
+- From the output above, the variables are all now numeric. 
+###### Imputing Missing Values
+```stata
+foreach var in bmi glucose totchol heartrate education cigsperday bpmeds {
+    summarize `var', detail
+    replace `var' = r(p50) if missing(`var')
+```
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/6bfcba78-6365-41d8-b6d4-d605cb03bc78" />
 
+- From the output above, it is clear that there are no missing values remaining after the imputation process. All variables now have the same number of observations, which is 4,238, indicating that every previously missing value has been replaced with an imputed value.
+- As a result, the dataset is now complete and suitable for further statistical analysis without loss of observations due to missing data.
