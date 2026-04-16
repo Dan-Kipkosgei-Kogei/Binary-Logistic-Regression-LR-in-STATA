@@ -65,4 +65,11 @@ summarize
 - The output shows that variables like male, age, and others have 4,238 observations because they contain valid numeric data for all individuals in the dataset. However, variables such as education, cigsperday, bpmeds, totchol, bmi, heartrate, and glucose show 0 observations because Stata does not find any usable numeric values in them.
 - This does not mean the variables are absent; rather, it means that every entry for those variables is missing or invalid (for example recorded as . or stored in a way Stata cannot interpret numerically).
 - As a result, Stata cannot compute statistics like the mean, minimum, or maximum, and therefore reports zero observations. In short, those variables exist in the dataset but are effectively empty from Stata’s perspective because all their values are missing.
-- Ti deal with these variables, they can be converted into proper numeric values or impute their missing value or drop them  if they contain no usable data.
+- T0 deal with these variables, they can be converted into proper numeric values or impute their missing value or drop them  if they contain no usable data.
+###### Dealing with non numerics
+```stata
+destring education cigsperday bpmeds totchol bmi heartrate glucose, replace force
+```
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/d862ad63-53a5-47a5-9dca-a4d520411c4a" />
+From the output above, the variables are all now numeric.
+
