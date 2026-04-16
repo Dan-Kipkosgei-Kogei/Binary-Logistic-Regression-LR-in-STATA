@@ -110,6 +110,13 @@ graph bar (count), over(tenyearchd) title("Counts of 10-Year Heart Disease")
 
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/65476a4b-7f31-48c4-afd9-5e5e03877cc0" />
 
+## Logistic Regression Model in STATA
+```stata
+logit tenyearchd male education age bmi sysbp diabp currentsmoker diabetes
+```
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/b32cb4bd-356e-4c6a-95cc-bffe7635d7c1" />
+
+
 
 
 
