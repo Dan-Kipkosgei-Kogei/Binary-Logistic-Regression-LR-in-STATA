@@ -87,3 +87,12 @@ foreach var in bmi glucose totchol heartrate education cigsperday bpmeds {
 ### Some Data Visualisation in STATA
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/98e4f2ba-99ca-40f7-bc25-0261d9a1724a" />
 
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/134fa6b7-ad68-48f2-ab35-7c2fccdcb6d3" />
+
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/d4238441-b010-4c87-b394-2a1177271594" />
+
+<img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/65476a4b-7f31-48c4-afd9-5e5e03877cc0" />
+
+
+
+
