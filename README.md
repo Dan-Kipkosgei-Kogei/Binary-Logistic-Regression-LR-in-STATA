@@ -85,11 +85,28 @@ foreach var in bmi glucose totchol heartrate education cigsperday bpmeds {
 - As a result, the dataset is now complete and suitable for further statistical analysis without loss of observations due to missing data.
 
 ### Some Data Visualisation in STATA
+
+```stata
+graph bar (count), over(male) title("Counts by Gender")
+
+```
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/98e4f2ba-99ca-40f7-bc25-0261d9a1724a" />
+
+```stata
+graph bar (count), over(currentsmoker) title("Counts of Current Smokers")
+```
 
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/134fa6b7-ad68-48f2-ab35-7c2fccdcb6d3" />
 
+```stata
+graph box sysbp, title("Boxplot of Systolic Blood Pressure")
+```
+
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/d4238441-b010-4c87-b394-2a1177271594" />
+
+```stata
+graph bar (count), over(tenyearchd) title("Counts of 10-Year Heart Disease")
+```
 
 <img width="700" height="500" alt="image" src="https://github.com/user-attachments/assets/65476a4b-7f31-48c4-afd9-5e5e03877cc0" />
 
